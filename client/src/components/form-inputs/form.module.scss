@@ -1,0 +1,30 @@
+.text {
+  font-size: 18px;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+}
+
+.input {
+  font-size: 12px;
+}
+
+.button {
+  text-align: center;
+  background-color: green;
+  border-color: #313131;
+  cursor: pointer;
+  transition: background-color 0.4s ease, color 0.4s ease,
+    border-color 0.4s ease;
+}
+.reset {
+  text-align: center;
+  background-color: #313131;
+  border-color: #313131;
+  cursor: pointer;
+  transition: background-color 0.4s ease, color 0.4s ease,
+    border-color 0.4s ease;
+}
+.submit {
+  color: white;
+}

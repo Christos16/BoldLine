@@ -1,0 +1,148 @@
+.button {
+  font-weight: inherit;
+  border: none;
+  background-color: #fff;
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+  border-left: 1px solid #e3e3e3;
+  border-right: 1px solid #e3e3e3;
+  padding: 10px 10px;
+  min-width: 48px;
+  margin-top: -1px;
+  margin-left: -1px;
+  cursor: pointer;
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}
+
+.selected {
+  font-weight: inherit;
+  border: none;
+  background-color: black;
+  color: white;
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+  border-left: 1px solid #e3e3e3;
+  border-right: 1px solid #e3e3e3;
+  padding: 10px 10px;
+  min-width: 48px;
+  margin-top: -1px;
+  margin-left: -1px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}
+
+.shoppingbagbutton {
+  width: 100%;
+  height: 44px;
+  text-align: center;
+  background-color: #313131;
+  border-color: #313131;
+  cursor: pointer;
+  transition: background-color 0.4s ease, color 0.4s ease,
+    border-color 0.4s ease;
+  &:hover {
+    background-color: black;
+    border-color: black;
+  }
+}
+
+.disabled {
+  width: 100%;
+  height: 44px;
+  text-align: center;
+  background-color: grey;
+  opacity: 0.5;
+  border-color: #313131;
+  cursor: pointer;
+  transition: background-color 0.4s ease, color 0.4s ease,
+    border-color 0.4s ease;
+}
+
+.text {
+  color: white;
+}
+
+.description {
+  margin-top: 7px;
+  color: #313131;
+  color: rgba(49, 49, 49, 0.5);
+  line-height: 1.4;
+  font-size: 12px;
+  padding-right: 15px;
+}
+
+.card {
+  line-height: 1.4;
+  letter-spacing: 0.4px;
+  font-size: 11px;
+  height: 50px 50px;
+  padding-top: 10px;
+  box-shadow: 5px 5px 5px 5px;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.4s ease, color 0.4s ease,
+    border-color 0.4s ease;
+
+  .free {
+    color: #67d39f;
+  }
+
+  &:hover {
+    background-color: lightgrey;
+    border-color: black;
+  }
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 27px;
+  color: #313131;
+}
+
+.price {
+  color: #313131;
+  font-family: 'Graphik', sans-serif;
+  font-size: 16px;
+  font-size: 1.6rem;
+  min-width: 320px;
+  direction: ltr;
+}
+
+.more {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 770px) {
+  .card {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .title {
+    margin-top: 15px;
+  }
+}
+
+.error {
+  background-color: lightcoral;
+  color: white;
+  font-weight: bold;
+}
+
+.success {
+  background-color: lightgreen;
+  color: white;
+  font-weight: bold;
+}

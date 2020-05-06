@@ -1,0 +1,45 @@
+.carticon {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  .shoppingicon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .itemcount {
+    position: absolute;
+    font-size: 10px;
+    font-weight: bold;
+    bottom: 12px;
+  }
+}
+
+@media (max-width: 770px) {
+  .carticon {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    .shoppingicon {
+      width: 24px;
+      height: 24px;
+    }
+
+    .itemcount {
+      position: absolute;
+      font-size: 10px;
+      font-weight: bold;
+      bottom: 12px;
+    }
+  }
+}

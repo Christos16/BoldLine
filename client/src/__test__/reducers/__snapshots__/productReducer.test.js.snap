@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`select_reducer GET_POSTS Should render the selected product by id 1`] = `
+Object {
+  "NumberOfProducts": "",
+  "product": Object {
+    "_id": "12345",
+    "color": "Stone",
+    "department": "Men",
+    "description": "Grey Pullover with pockets",
+    "imagePath": "http://static.zara",
+    "menCategory": 1,
+    "price": 25,
+    "quantity": 0,
+    "size": 1,
+    "title": "Grey Pullover",
+    "womanCategory": 1,
+  },
+  "products": Array [],
+}
+`;
+
+exports[`select_reducer GET_POSTS Should return correct state from api 1`] = `
+Object {
+  "NumberOfProducts": undefined,
+  "product": Object {},
+  "products": undefined,
+}
+`;
+
+exports[`select_reducer GET_POSTS Should return default state 1`] = `
+Object {
+  "NumberOfProducts": undefined,
+  "product": Object {},
+  "products": undefined,
+}
+`;

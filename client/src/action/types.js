@@ -1,0 +1,10 @@
+export const GET_PRODUCTS = 'GET_PRODUCTS';
+export const GET_PRODUCT = 'GET_PRODUCT';
+export const TOGGLE_CART_HIDDEN = 'TOGGLE_CART_HIDDEN';
+export const ADD_ITEM = 'ADD_ITEM';
+export const CLEAR_ITEM_FROM_CART = 'CLEAR_ITEM_FROM_CART';
+export const REMOVE_ITEM = 'REMOVE_ITEM';
+export const ADD_QUANTITY = 'ADD_QUANTITY';
+export const DECREASE_QUANTITY = 'DECREASE_QUANTITY';
+export const GET_CATEGORY = 'GET_CATEGORY';
+export const SUCCESS_BUY = 'SUCCESS_BUY';

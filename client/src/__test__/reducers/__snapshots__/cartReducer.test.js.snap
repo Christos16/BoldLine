@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`select_cardReducer ADD_ITEM Should add item into cart 1`] = `
+Object {
+  "cartItems": Array [
+    Object {
+      "0": Array [
+        Object {
+          "_id": "12345",
+          "color": "Stone",
+          "department": "Men",
+          "description": "Grey Pullover with pockets",
+          "imagePath": "http://static.zara",
+          "menCategory": 1,
+          "price": 25,
+          "quantity": 2,
+          "size": 1,
+          "title": "Grey Pullover",
+          "womanCategory": 1,
+        },
+      ],
+      "quantity": 1,
+    },
+  ],
+  "hidden": true,
+}
+`;
+
+exports[`select_cardReducer ADD_ITEM Should remove the selected product by id from Cart 1`] = `
+Object {
+  "cartItems": Array [],
+  "hidden": true,
+}
+`;
+
+exports[`select_reducer ADD_ITEM Should add item into cart 1`] = `
+Object {
+  "NumberOfProducts": "",
+  "product": Object {},
+  "products": Array [],
+}
+`;
+
+exports[`select_reducer ADD_ITEM Should decrease the selected product by id from Cart 1`] = `
+Object {
+  "NumberOfProducts": "",
+  "product": Object {},
+  "products": Array [],
+}
+`;
+
+exports[`select_reducer ADD_ITEM Should remove the selected product by id from Cart 1`] = `
+Object {
+  "NumberOfProducts": "",
+  "product": Object {},
+  "products": Array [],
+}
+`;

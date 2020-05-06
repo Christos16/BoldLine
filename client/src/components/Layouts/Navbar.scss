@@ -1,0 +1,75 @@
+@media (max-width: 767px) {
+  .navbar-header {
+    display: flex;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    order: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-toggle {
+    order: 0;
+    margin-left: 15px;
+    margin-right: 0;
+  }
+}
+
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+  background-color: #c67605;
+}
+#lblCartCount {
+  font-size: 12px;
+  background: #ff0000;
+  color: #fff;
+  padding: 0 5px;
+  vertical-align: top;
+  margin-left: -10px;
+}
+
+.span {
+  font-size: 14px;
+  font-weight: 900;
+  position: absolute;
+  background: blue;
+  color: white;
+  border-radius: 100px;
+  height: 20px;
+  width: 12px;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none !important;
+
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+a {
+  text-decoration: none !important;
+
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.a {
+  text-decoration: none !important;
+
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
