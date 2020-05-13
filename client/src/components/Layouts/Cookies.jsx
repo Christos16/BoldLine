@@ -12,9 +12,8 @@ const CookieDisplay = () => {
       buttonStyle={{ color: 'lightdark', fontSize: '15px', fontWeight: 'bold' }}
       expires={150}
     >
-      This website uses cookies to enhance the user experience. This site uses
-      cookies. By continuing to browse you are agreeing to our use of cookies
-      described on our{' '}
+      This website uses cookies to enhance the user experience. By continuing to
+      browse you are agreeing to our use of cookies described on our{' '}
       <a className='link font-weight-bold' href='/privacy-policy'>
         privacy policy.
       </a>
