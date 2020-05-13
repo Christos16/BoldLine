@@ -128,8 +128,8 @@ const CheckoutItem = () => {
         <div className='col-sm-4'>
           <div className={styles.position}>
             <div className='container'>
-              <FormInput />
               <form class='card p-2 mb-2'>
+                <FormInput />
                 <div class='input-group'>
                   <input
                     type='text'

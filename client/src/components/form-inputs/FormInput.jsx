@@ -110,9 +110,22 @@ class FormInput extends Component {
                   className='invalid-feedback'
                 />
               </div>
-              <div data-set='AutoComplete'>
-                <AutoComplete
-                  getInputFunction={this.onAddressChange.bind(this)}
+              <div className='form-group'>
+                <label htmlFor='address' className={styles.input}>
+                  Address
+                </label>
+                <Field
+                  name='address'
+                  type='text'
+                  className={
+                    `${styles.size} form-control` +
+                    (errors.email && touched.email ? ' is-invalid' : '')
+                  }
+                />
+                <ErrorMessage
+                  name='address'
+                  component='div'
+                  className='invalid-feedback'
                 />
               </div>
             </Form>
