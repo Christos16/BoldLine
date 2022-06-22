@@ -14,7 +14,7 @@
   "author": "Christos Malamas",
   "license": "MIT",
   "dependencies": {
-    "async": "^3.2.0",
+    "async": "^3.2.2",
     "bcrypt": "^4.0.1",
     "body-parser": "^1.19.0",
     "check-prop-types": "^1.1.2",
